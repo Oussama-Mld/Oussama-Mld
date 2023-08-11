@@ -1,0 +1,273 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+ body{
+ 	background-image: url('../Images/img0.jpg');
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+.nav{
+		background-color:#7cb9c5 ;
+   position: fixed;
+   width: 100%;
+}
+@keyframes example {
+	0%{background-color:#000000; color: White ; left:0px; top:0px; }
+	25%{ background-color:white; color:black; left:100px; top:0px;}
+	50%{ background-color:black; color:white; left:100px; top:0px;}
+	75%{ background-color:white; color:black; left:0px; top:0px;}
+	100%{ background-color:black; color:white; left:0px; top:0px;}
+	
+}
+.nav h3{
+	margin-top: 5px;
+ padding: 5px;
+ border-radius:20px;
+ position: relative;
+ background-color: gray;
+ display: inline-block;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	box-shadow: 5px 5px 5px #8f6a6a;
+}
+
+ul{
+
+	text-align:right;
+
+}
+li{
+  display: inline-block;
+  padding: 0px 10px 10px 0px;
+	
+}
+a{
+	color:#3b3636 ;
+	text-decoration: none;
+}
+.a1:hover{
+	text-decoration: underline;
+}
+
+.a2{
+	background-color:#489792dc ;
+	border-radius: 20px;
+	padding: 5px;
+	border: 1px dashed #293a39dc;
+	
+}
+
+.a2:hover{
+		background-color: #3d4140;
+    color: white ;
+	
+}
+.bb{
+	background-image: url('../Images/img1.jpg');
+ height: 400px;
+ background-repeat: no-repeat;
+ background-size:cover ;
+ background-position: center;
+ padding-top: 200px;
+ }
+ .bb h1{
+ 	background-color:#333333ad ;
+ 	color: white ;
+ 	text-align: center;
+ 	display: inline-block;
+ 	padding: 20px;
+ 	
+ }
+ .Attributes{
+ 	margin-top: 45px;
+ 	text-align: center;
+ }
+ 
+ .Attributes h1{
+ 	font-size: 25px;
+ }
+ 
+ .All-Attributes{
+ 	display: flex;
+ 	margin-top: 20px;
+ }
+ .Attribute{
+ 	background-image: url('../Images/img2.jpg');
+
+ 	background-repeat: no-repeat;
+ background-size:cover ;
+ background-position: center;
+padding: 10px;
+border-radius: 10px;
+margin: 10px;
+transition: all 200ms;
+ }
+ @keyframes ex{
+ 	from{ box-shadow: 5px 5px 5px 5px white; }
+ 	to{ box-shadow: 5px 5px 5px 5px gray;  }
+ 
+ }
+ 
+ .Attribute:hover{
+ 	box-shadow:5px 5px 5px 5px #676763;
+ 	animation-name: ex;
+ 	animation-duration: 2s;
+ 	animation-iteration-count: 3;
+transform: translateY(15px);
+cursor: pointer;
+ }
+ 
+ .Attribute i{
+ 	color: #181baf;
+ 	font-size: 35px;
+ 	margin-bottom: 15px;
+ 	
+ }
+ .Attribute h2{
+ 	color: #242017;
+ 	text-shadow: 5px 5px 5px #3c3c3c;
+ }
+ .Attribute p{
+ 	font-size: 20px;
+ 	margin-top: 15px;
+ }
+
+	.Home{
+		width:100%;
+		text-align: center;
+		margin: auto;
+		padding-top: 80px;
+		
+	}
+	.Home h2{
+		font-size: 20px;
+	  margin-bottom: 15px;
+	  color: green;
+	}
+	.Home p{
+		font-size: 18px;
+		line-height: 2;
+		color:#562000f1 ;
+		margin-bottom: 30px;
+	}
+	
+	.imgs .img{
+		width: 30%;
+		border: 1px solid black;
+		background-color: #8f6c573f;
+		border-radius: 15px;
+		
+	}
+	
+	.imgs .img img{
+		width: 100%;
+	border-radius: 15px;
+	}
+	
+	.imgs{
+		display: flex;
+		justify-content: space-between ;
+	}
+
+	.Contact-Us{
+		padding: 30px;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	
+	}
+	
+	.Contact-Us h2{
+		margin: 30px;
+		color: blue;
+	}
+	
+	.Contact-Us p{
+		margin-bottom: 30px;
+		color: #2d3029d0;
+	}
+	
+	.Contact-Us .Cont-form{
+		width: 80%;
+		margin: auto;
+		background-color: #d6d1ccd0;
+		padding: 40px;
+	}
+	
+	.inputs input{
+		width: 85%;
+		height: 30%;
+		padding: 15px;
+		border-radius: 10px;
+		border: 1px dashed #327bdcd0;
+	  outline: none;
+	  margin-bottom: 25px;
+	  transition: all 200ms;
+	}
+	
+	.inputs input:focus{
+		width: 95%;
+		
+	}
+	
+	.inputs textarea{
+		width: 80%;
+		padding: 15px;
+		border-radius: 10px;
+		border: 1px dashed #327bdcd0;
+		outline: none;
+		margin-bottom: 25px;
+		transition: all 200ms;
+	}
+	.inputs textarea:focus{
+		width: 90%;
+	}
+	
+ .Send {
+ 	 width: 100px;
+ 	 height: 39px;
+ 	 background-color:#dc7d32d0 ;
+ 	 color: white;
+ 	 border-radius: 30px;
+ 	 border: 1px solid #72543cd0;
+ 	 font-size: 20px;
+ 	 cursor: pointer;
+ }
+ .Send:hover{
+ 	background-color: #b7dd75d0;
+ 	color: black;
+ 	width: 120px;
+ }
+ footer {
+ 	background-image: url('../Images/img6.jpg');
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	padding: 40px;
+ 	color: white;
+ 	margin-top: 50px;
+ }
+ footer p {
+ 	padding-bottom: 0px;
+ 	text-align: center;
+ 	font-size: 22px;
+ }
+ h4{
+ 	display: inline-block;
+ 	text-align: left;
+ 	padding: 5px;
+ }
+ .h41{
+ 	padding:0px 600px 0px 20px;
+ }
+ .h42{
+ 		padding:0px 620px 0px 20px;
+ }
+ .h43{
+ 		padding:0px 610px 0px 20px;
+ }
